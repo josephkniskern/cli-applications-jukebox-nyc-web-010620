@@ -20,5 +20,6 @@ def play(songs)
   elsif songs.index(users_response) != nil
     puts "Playing #{users_response}"
   else
-    puts ""Invalid input, please try again""
+    puts "Invalid input, please try again"
+  end
 end
