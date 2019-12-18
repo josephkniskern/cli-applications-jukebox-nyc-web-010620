@@ -31,16 +31,15 @@ end
 def run
   puts "Please enter a command:"
   user_input = gets.strip
-  while user_input == "exit"
-    exit_jukebox
+  while user_input != "exit"
     if user_input == "list"
       list
     elsif user_input == "play"
       play
     elsif user_input == "help"
       help
-    else
-      break
+    elsif user_input == "exit"
+      exit_jukebox
     end
   end
 
