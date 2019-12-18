@@ -33,7 +33,7 @@ def run
   user_input = gets.strip
   while user_input != "exit"
     if user_input == "list"
-      list
+      list(songs)
     elsif user_input == "play"
       play(songs)
     elsif user_input == "help"
