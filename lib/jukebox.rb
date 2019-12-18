@@ -15,4 +15,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   users_response = gets.strip
+  if (1..9).to_a.index(users_response.to_i) != nil
+    puts "Playing #{songs[users_response.to_i - 1]}"
 end
