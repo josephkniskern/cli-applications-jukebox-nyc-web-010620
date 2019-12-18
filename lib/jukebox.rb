@@ -38,8 +38,9 @@ def run
       play(songs)
     elsif user_input == "help"
       help
-    elsif user_input == "exit"
-      exit_jukebox
+    else
+      puts "Invalid command"
+      help
     end
   end
 
