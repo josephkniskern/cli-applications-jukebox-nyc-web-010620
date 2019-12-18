@@ -34,9 +34,9 @@ def run
   while user_input == "exit"
     exit_jukebox
     if user_input == "list"
-      list(songs)
+      list
     elsif user_input == "play"
-      play(songs)
+      play
     elsif user_input == "help"
       help
     else
