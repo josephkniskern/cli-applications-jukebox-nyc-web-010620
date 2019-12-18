@@ -10,3 +10,4 @@ end
 
 def list(songs)
   songs.each_with_index { |song, idx| puts "#{idx + 1}. #{song}"}
+end
