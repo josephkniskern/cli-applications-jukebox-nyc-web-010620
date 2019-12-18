@@ -39,7 +39,8 @@ def run
     elsif user_input == "help"
       help
     else
-      exit_jukebox
+      break
     end
   end
+  exit_jukebox
 end
