@@ -39,7 +39,6 @@ def run
     elsif user_input == "help"
       help
     else
-      puts "Invalid command"
       help
     end
   end
