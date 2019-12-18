@@ -34,5 +34,8 @@ def run
   while user_input != "exit"
     if user_input == "list"
       list
-    elsif
+    elsif user_input == "play"
+      play(songs)
+    elsif user_input == "help"
+      help
 end
